@@ -19,3 +19,13 @@ section {
     padding: 20px;
     min-height: 20vh;
 }
+footer {
+    background: lightgray;
+    padding: 32px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+h1 {
+    font-size: 48px;
+    margin: 0 0 16px 0;
+}
