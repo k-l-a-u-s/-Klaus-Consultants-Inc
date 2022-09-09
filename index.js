@@ -89,3 +89,44 @@ footer {
     width: 100px;
 
 }
+.data {
+    display: flex;
+     justify-content: space-between;
+ }
+ 
+ .data p{
+     width: 100px;
+     
+ }
+
+ .error{
+        color: red;
+        display: none;
+ }
+ * {padding: 0%; margin: 0%; scroll-behavior: smooth;}
+
+._form_wrapper {
+    width: 300px;
+    background-color: #353535;
+    margin: 10px 30px;
+    padding: 10px 20px ;
+    border-radius: 4px;
+    color: #fff;
+    text-align: left;
+    margin: 0 auto;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.input input { outline: none; border: none;background-color: #fff; width: 300px; height: 30px; padding: 0px 4px;}
+
+._input{ display: flex; justify-content: flex-end; }
+
+._input button {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
