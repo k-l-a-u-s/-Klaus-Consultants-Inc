@@ -1,5 +1,4 @@
-
-}const error= document.querySelector('.error');
+const error= document.querySelector('.error');
 const search = document.querySelector('#search');
 search.addEventListener('click', (e) => {
    const searchbar = document.querySelector("#searchbar").value
