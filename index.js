@@ -16,9 +16,9 @@ function fetchData(query) {
          {
             error.setAttribute('style', 'display: none');
     const children= document.querySelector('.data').children;
-    children[0].innerHTML = Data.data.name;
-    children[1].innerHTML = Data.data.price;
-    children[2].innerHTML = Data.data.description;
+    children[0].innerHTML = data.name;
+    children[1].innerHTML = data.price;
+    children[2].innerHTML = data.description;
          }
      
   })}
