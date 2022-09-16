@@ -6,7 +6,7 @@ search.addEventListener('click', (e) => {
 })
 
 function fetchData(query) {
-   fetch(`www.thecocktaildb.com/api/json/v1/1/search.php?/${query}`)
+   fetch(`https://nikl-foods-app.herokuapp.com/food/${query}`)
     .then((resp) => resp.json())
     .then((Data) => {
          if (Data.error) {
@@ -16,7 +16,9 @@ function fetchData(query) {
          {
             error.setAttribute('style', 'display: none');
     const children= document.querySelector('.data').children;
-    children[0].innerHTML = Data.data.Drink;
+    children[0].innerHTML = Data.data.name;
+    children[1].innerHTML = Data.data.price;
+    children[2].innerHTML = Data.data.description;
          }
      
   })}
