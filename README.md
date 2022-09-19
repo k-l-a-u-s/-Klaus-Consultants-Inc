@@ -3,7 +3,7 @@ Klaus Consultants Inc
 
 This is the source code for the [Klaus Consultants Inc](http://klausconsultants.com) website.
 
-This app provides information about the company, it's services and seeks to educate on the various technologies that have been put in place to ensure decentralization is realized.
+This app provides information about the company, it's services and seeks to educate on the various technologies that have been put in place to ensure decentralization is realized.You will be able to check on prices for different variations of blockchain currencies such as bitcoin and ethereum.
 
 =====================
 ##Technology Stack
@@ -24,5 +24,5 @@ Student @Moringa School
 ##How to reach me
 
 Email: Nicholas Gichangi Ndikwe
-Name: nicholasndikwe@gmail.co
+Name: nicholasndikwe@gmail.com
 Tel: +254 792356129
